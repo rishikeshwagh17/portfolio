@@ -1,3 +1,4 @@
+import Developer from "@/components/Developer";
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
 import MoreDetails from "@/components/MoreDetails";
@@ -12,6 +13,7 @@ export default function Home() {
       <MoreDetails />
       <TestimonialCards />
       <UpcomingProjects />
+      <Developer />
     </main>
   );
 }
