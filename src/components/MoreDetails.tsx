@@ -70,7 +70,7 @@ const content = [
 
 function MoreDetails() {
   return (
-    <div className="p-10 ">
+    <div className="p-5 ">
       <StickyScroll content={content} />
     </div>
   );
